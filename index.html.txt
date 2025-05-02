@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Crypto HR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph мета-теги для предпросмотра -->
+  <meta property="og:title" content="Global Crypto HR" />
+  <meta property="og:description" content="Работа с финансами. Присоединяйся к нам!" />
+  <meta property="og:image" content="https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-a54c-620a-9651-1f9b9513eb91/raw?se=2025-05-02T10%3A33%3A39Z&sp=r&sv=2024-08-04&sr=b&scid=22d17939-0cbb-5f50-ab30-eb115f660bcd&skoid=06d77cea-897f-49c6-9d78-20f6510f72af&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-02T07%3A47%3A41Z&ske=2025-05-03T07%3A47%3A41Z&sks=b&skv=2024-08-04&sig=vDFYHqgDJgnsFOODsZ1agaY6XlkolwVvkmFTBpWcRhI%3D" />
+  <meta property="og:url" content="https://nice-redirect.vercel.app" />
+  <meta property="og:type" content="website" />
+
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+    }
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #2AABEE;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .box {
+      background: #222;
+      padding: 40px;
+      border-radius: 12px;
+      display: inline-block;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+  </style>
+
+  <meta http-equiv="refresh" content="3;URL=https://t.me/MelehinVitaliy">
+</head>
+<body>
+  <div class="box">
+    <h1>Global Crypto HR</h1>
+    <p>Перенаправляем вас в Telegram...</p>
+    <p>Если этого не произошло, нажмите <a href="https://t.me/MelehinVitaliy">здесь</a>.</p>
+    <br>
+    <a href="https://t.me/MelehinVitaliy" target="_blank">
+      <img src="https://telegram.org/img/t_logo.png" width="80" alt="Telegram">
+    </a>
+  </div>
+</body>
+</html>
