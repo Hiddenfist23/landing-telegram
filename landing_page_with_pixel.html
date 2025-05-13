@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Узнай подробности вакансии у нашего HR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)}; 
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; 
+  n.queue=[];t=b.createElement(e);t.async=!0; 
+  t.src=v;s=b.getElementsByTagName(e)[0]; 
+  s.parentNode.insertBefore(t,s)}(window, document,'script', 
+  'https://connect.facebook.net/en_US/fbevents.js'); 
+  fbq('init', '2052521631908392'); 
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2052521631908392&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Open Graph мета-теги -->
+  <meta property="og:title" content="Узнай подробности вакансии у нашего HR" />
+  <meta property="og:description" content="Это твоя возможность выйти на новый уровень дохода!" />
+  <meta property="og:image" content="https://images.genius.com/8190803c10c9f23ac050d695af7bbfa6.939x939x1.jpg" />
+  <meta property="og:url" content="https://landing-telegram.vercel.app" />
+  <meta property="og:type" content="website" />
+
+  <!-- CSS стили -->
+  <style>
+    body {
+      background: url('https://images.genius.com/8190803c10c9f23ac050d695af7bbfa6.939x939x1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .fade-in {
+      opacity: 0;
+      animation: fadeInAnimation ease 2s forwards;
+    }
+    @keyframes fadeInAnimation {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .box {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+      width: 90%;
+      max-width: 400px;
+    }
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background: linear-gradient(90deg, #00b4db, #0083b0);
+      color: white;
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.5s;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #0083b0, #00b4db);
+    }
+  </style>
+
+  <!-- Редирект через 7 секунд -->
+</head>
+<body>
+  <div class="box fade-in">
+    <div class="title">Узнай подробности вакансии у нашего HR</div>
+    <div class="subtitle">Это твоя возможность выйти на новый уровень дохода!</div>
+    <a href="https://t.me/m/EZeKyspLYjJh" target="_blank" class="btn" onclick="sendLeadEvent()">Связаться в телеграм</a>
+  </div>
+
+  <script>
+    function sendLeadEvent() {
+      fbq('track', 'Lead');  // Отправка события Lead
+      setTimeout(function() {
+        window.location.href = 'https://t.me/m/EZeKyspLYjJh'; // Редирект с задержкой
+      }, 500);  // Задержка 500 мс (0.5 сек)
+    }
+  </script>
+</body>
+</html>
